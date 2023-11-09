@@ -1,3 +1,8 @@
+main{
+    max-width: max-content;
+    margin: auto;
+}
+
 .navbar-item{
     justify-content: flex-end;
 }
@@ -18,7 +23,7 @@
 
 .fondo .presentacion{
     display: flex;
-    border: solid 1px red;
+    /* border: solid 1px red; */
    
 
 }
@@ -30,7 +35,7 @@
        
 }
 
-.estudios{
+.info{
     padding: 1em;
     margin: 1em;
     
@@ -39,7 +44,7 @@
 
 
 .lugar{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
