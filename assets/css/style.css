@@ -9,7 +9,7 @@
     justify-content: flex-end;
     flex-wrap: wrap;
     padding-bottom: 80px;
-    background-image: url('../assets/img/bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     opacity: 50%;
     height: 80vh;
@@ -26,8 +26,35 @@
     text-align: center;
     color: black;
     font-size: 24px;
+       
+       
+}
+
+.estudios{
+    padding: 1em;
+    margin: 1em;
     
-   
+}
+
+
+
+.lugar{
+    border: solid 1px red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
     
-    
+       
+}
+
+.colegio{
+    max-width: 33%;
+    flex: 10 0 33.3%;
+}
+
+
+.descripcion{
+    /* padding-right: 150px; */
+    text-align: start;
+    max-width: 66%;
 }
