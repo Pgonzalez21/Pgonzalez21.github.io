@@ -39,3 +39,18 @@
     width: 70%;
     flex-wrap: inherit;
 }
+
+.contenido{
+   display: flex;
+   justify-content: center;
+   /* align-items: flex-end; */
+
+}
+
+.resumen{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0 0 30%;
+    
+}
