@@ -1,13 +1,14 @@
-Mi C.V
-Pgonzalez21.github.io
+#Pgonzalez21.github.io
 
+C.V
+https://pgonzalez21.github.io/
 
 
 
 Realice un Fork al repositorio
 
-Atelijudesign/Atelijudesign.github.io
-niconstvc.github.io
+https://Atelijudesign.github.io
+https://niconstvc.github.io
 
 
 
