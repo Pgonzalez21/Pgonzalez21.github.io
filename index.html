@@ -3,132 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e83d0747d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse navbar-item" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Portafolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Educacion</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Experiencia</a>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <main>
-        <section>
-            <div class="fondo">
-                <div class="presentacion">
-                    <p>Hola, yo soy Pablo Gonzalez, soy tecnico en Computacion e Informatica, llevo mas de 12 años trabajando
-                        en el area de soporte tecnico y he decidido aprender diseño web, actualmente vivo en la ciudad de Temuco 
-                        y estoy trabajando actualmente en la Universidad Mayor de Temuco. Mas abajo te hablo mas de mi.
-                    </p>
+        <div class="container-fluid container1 fixed-top">
+            <nav class="navbar navbar-expand-lg  navbar1 container-fluid ">
+                <div class="container-fluid navbar2">
+                  <!-- <span class="d-block d-lg-block pb-3"> -->
+                    <img src="./assets/img/bg.jpg" alt="Logo"  class="img-fluid img-profile rounded-circle align-text-top p-2">
+                  <!-- </span>   -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav listanavbar ">
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" aria-current="page" href="#presentacion">ACERCA DE MI</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" aria-current="page" href="#exlaboral">EXPERIENCIA LABORAL</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" aria-current="page" href="#educacion">EDUCACION</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" aria-current="page" href="#portafolio">PORTAFOLIO</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li> -->
+                    </ul>
+                  </div>
                 </div>
+              </nav>
+          </div>
+        
+    </header>
+    <main>
+        <div class="container-fluid container2 border-3 border-danger">
+          <section class="resumen" id="presentacion">
+            <div class="presentacion">
+              
+              <h1>Pablo Gonzalez</h1>
+              <div class="direccion">
+                Manuel Recabarren 04050, Temuco, Region de la Araucania, Chile - 
+                <a href="pablogonzalez@gmail.com">pablogonzalez@gmail.com</a>
                 
-            </div>
-        </section>
-
-          <section class="info">
-
-            <h3>Estudios</h3>
-
-            <article class="lugar">
-              <div class="colegio">
-                <h4>Bootcamp DesafioLatam</h4>    
-
+                <p><br><br>Soy tecnico en Informatica, con mas de 12 años de experiencia en soporte
+                  tecnico y helpdesk, pero me he decidido a convertireme en un desarrolladorde web 
+                  full stack, actualmente estoy realizando un bootcamp que me ayudara a cumplir 
+                  este objetivo.
+                </p>
               </div>
-              <div class="descripcion">
-                <p>Actualmente cursando Bootcamp en desarrollo web Full Stack</p>
+            </div> 
 
-              </div>
-
-            </article>
-            <article class="lugar">
-              <div class="colegio">
-                <h4>C.F.T Andres Bello</h4>
-
-
-              </div>
-              <div class="descripcion">
-                <p>Obtengo titulo de T.N.S Computacion e Informatica</p>
-              </div>
-
-            </article>
-            <article class="lugar">
-              <div class="colegio">
-                <h4>Liceo Padre Hurtado</h4>
-
-              </div>
-              <div class="descripcion">
-                <p>Completo Cuarto medio de educacion media</p>
-              </div>
-
-                     
-           
-           
           </section>
-          <hr style="color: green;  margin: 1em;">
+          <hr class="mx-5">
           
-          <section class="info">
-            <h3>Experiencia Laboral</h3>
-
-            <article class="lugar">
-              <div class="colegio">
-                <h4>Universidad Mayor</h4>    
-
+          <!--Experiencia Laboral-->
+          <section class="educacion" id="exlaboral">
+            <div>
+              <h2 class="mb-5">EXPERIENCIA LABORAL</h2>
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Universidad Mayor, sede Temuco</h3>
+                    <div>Tecno soporte tecnico, departamento de INformatica</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>marzo 2023</p>
+                </div>
+              
               </div>
-              <div class="descripcion">
-                <p>Tecnico soporte departamento de informatica</p>
-
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Hospital Carahue</h3>
+                  <div>Encargado soporte tecnico</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2021 - 2022</p>
+                </div>
               </div>
-
-            </article>
-            <article class="lugar">
-              <div class="colegio">
-                <h4>Hospital carahue</h4>
-
-
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Adexus</h3>
+                  <div>Tecnico soporte en terreno</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2020 - 2021</p>
+                </div>
               </div>
-              <div class="descripcion">
-                <p>Encargado TI Hospital carahue</p>
-              </div>
-            </article> 
-            <article class="lugar">
-              <div class="colegio">
-                <h4>Adexus</h4>
-
-
-              </div>
-              <div class="descripcion">
-                <p>Tecnico soporte terreno</p>
-              </div>
-            </article> 
-          </section>
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Egreso Educacion Media</h3>
+                  <div>Liceo Padre Hurtado, Loncoche, Chile</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2002 - 2005</p>
+                </div>
+              </div>    
+            
+            </div>
             
 
-        
-    </main>
+          </section>
+          <hr class="mx-5">
+          
+          <!--Educacion-->
+          <section class="educacion" id="educacion">
+            <div>
+              <h2 class="mb-5">EDUCACION</h2>
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Tecnico en computacion e informatica</h3>
+                    <div>C.F.T Andres Bello, Angol, Chile</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2010 - 2012</p>
+                </div>
+              
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Egreso Educacion Media</h3>
+                  <div>Liceo Padre Hurtado, Loncoche, Chile</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2002 - 2005</p>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Egreso Educacion Media</h3>
+                  <div>Liceo Padre Hurtado, Loncoche, Chile</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2002 - 2005</p>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Egreso Educacion Media</h3>
+                  <div>Liceo Padre Hurtado, Loncoche, Chile</div>
+                                  
+                </div>
+                <div class="flex-shrink-0 pt-4">
+                  <p>2002 - 2005</p>
+                </div>
+              </div>    
+              
+            </div>
+            
+            
+            
+          </section>
+          
+          <hr class="mx-5">
+          
+          
+          <section class="portafolio" id="portafolio">
+            <h2 class="mb-5" style="padding: 5% 0 0 5%">PORTAFOLIO</h2>
+              <div class="carrusel m-2 p-5">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                  <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true"  aria-label="Slide 2"></button>
+                  <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active" aria-current="true"  aria-label="Slide 3"></button> -->
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="./assets/img/carrusel1.png" class="d-block w-100" alt="Iguanas">
+                    <div class="carousel-caption d-none d-md-block">
+                      <!-- <h5>IGUANAS</h5> -->
+                     
+                      <i class="fa-brands fa-html5  fa-2xl" style="color: #e01a1a;"></i>
+                      <i class="fa-brands fa-css3-alt  fa-2xl" style="color: #5d81d5; padding-left: 10px;"></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./assets/img/carrusel2.png" class="d-block w-100" alt="Cupones">
+                      <div class="carousel-caption d-none d-sm-inline">
+                        <!-- <h5>CUPPONES</h5> -->
+                        <i class="fa-brands fa-html5  fa-2xl" style="color: #e01a1a;"></i>
+                        <i class="fa-brands fa-css3-alt  fa-2xl" style="color: #5d81d5; padding-left: 10px;"></i>
+                        <i class="fa-brands fa-bootstrap fa-2xl" style="color: rgba(94, 15, 146, 0.466); padding-left: 10px;"></i>
+                      </div>
+                  </div>
+                    <!-- <div class="carousel-item">
+                      <img src="./assets/img/carrusel3.png" class="d-block w-100" alt="CV">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5> 
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div> -->
+                  
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                
+              </div>
+            </section>    
+            
+            
 
+        </div>
+    </main>
     <footer>
 
     </footer>
+    
 </body>
 </html>
