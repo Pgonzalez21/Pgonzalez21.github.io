@@ -60,6 +60,10 @@ body{
     
 }
 
+.direccion p{
+    font-size: 18px;
+}
+
 .resumen{
     /* border: solid 1px black; */
     display: flex;
