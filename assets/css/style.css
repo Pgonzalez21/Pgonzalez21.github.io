@@ -64,37 +64,27 @@ body{
     font-size: 18px;
 }
 
-.resumen{
-    /* border: solid 1px black; */
-    display: flex;
-    justify-content: flex-end;
-    height: 80rem;
-    width: 100%;
-    
-    padding: 10% 5% 10% 5%;
-
-}
-
-.educacion p{
-    font-size: 18px;
-    /* width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%; */
-    text-align: justify;
-    /* justify-content: center; */
-}
-
-
 .direccion{
     text-align: left;
     font-size: 15px;
     font-weight: 400;
 }
 
-.educacion{
+.resumen{
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100%;
+    
+    padding: 10% 5% 10% 5%;
+
+}
+
+
+.trabajo_educacion{
     display: block;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding-top: 5%;
     padding-left: 5%;
@@ -104,6 +94,24 @@ body{
 
 }
 
-.educacion h3{
+.trabajo_educacion p{
+    font-size: 18px;
+    
+    text-align: justify;
+    /* justify-content: center; */
+}
+
+.trabajo_educacion h3{
     padding-top: 3%;
 }
+
+footer{
+    display: flex;
+    background-color: azure;
+    height: 4vh;
+    justify-content: center;
+    font-size: 10px;
+   
+    
+}
+
