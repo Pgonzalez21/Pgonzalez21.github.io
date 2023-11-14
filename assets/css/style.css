@@ -1,16 +1,21 @@
+*{
+
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     display: flex;
     flex-direction: row-reverse;
     max-width: 100vw;
     margin-left: 5px;
 
-    /* width: 100%; */
+    
 }
 
 .container1{
     display: flex;
     flex-direction: column;
-    /* border: solid 1px red; */
+   
     width: 29vw;
     height: 100%;
     margin: 0 0 0 0;
@@ -25,7 +30,6 @@ body{
 .container2{
     display: flex;
     flex-direction: column;
-    /* border: solid 1px black;     */
     width: 70vw;
     height: 100%;
     margin: 0 0 0 0;
@@ -56,7 +60,7 @@ body{
     flex-direction: column !important;
     padding-top: 60%;
     text-align: center;
-    /* background-color: rgb(230, 49, 17); */
+    
     
 }
 
@@ -71,7 +75,7 @@ body{
 }
 
 .resumen{
-    /* border: solid 1px black; */
+    
     display: flex;
     justify-content: flex-end;
     height: 100vh;
@@ -96,9 +100,8 @@ body{
 
 .trabajo_educacion p{
     font-size: 18px;
-    
     text-align: justify;
-    /* justify-content: center; */
+   
 }
 
 .trabajo_educacion h3{
