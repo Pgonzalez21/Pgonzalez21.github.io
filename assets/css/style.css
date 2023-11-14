@@ -17,7 +17,7 @@ body{
     padding: 0 0 0 0;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(230, 49, 17);
+    background-color: rgba(240, 240, 240, 0.445);
     
     
 }
@@ -43,23 +43,31 @@ body{
     flex-direction: column;
 }
 
+.navbar img{
+    max-width: 90%;
+    max-height: 100%;
+    border: 3px solid rgb(102, 101, 101);
+    padding: 0 0 0 0 !important;
+
+}
+
 .listanavbar{
     display: flex;
     flex-direction: column !important;
     padding-top: 60%;
     text-align: center;
-    background-color: rgb(230, 49, 17);
+    /* background-color: rgb(230, 49, 17); */
     
 }
 
 .resumen{
     /* border: solid 1px black; */
-    display: block;
+    display: flex;
     justify-content: flex-end;
-    height: 100%;
+    height: 80rem;
     width: 100%;
-    padding-top: 20%;
-    padding-left: 5%;
+    
+    padding: 10% 5% 10% 5%;
 
 }
 
